@@ -1,0 +1,4 @@
+BugList:
+- isEmpty does not work correctly when called on a single element list, follows suit that it does not work correctly on any sized list except any empty list.
+- addBack is adding to the front instead of the back of the list.
+-  removeBack and removeFront are not removing anything from the list, but does return false on a empty list. 
